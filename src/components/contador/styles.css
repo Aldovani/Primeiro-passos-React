@@ -1,0 +1,66 @@
+
+
+.contador {
+overflow: hidden;  
+
+  margin: 15% 500px;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: #c4c4c4;
+  position: fixed;
+}
+
+.contador .contador-numero {
+  background: #fff;
+  border: solid 1px black;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 0px  10px rgb(146, 145, 145) inset;
+}
+.contador .contador-numero p{
+  font-size: 25px;
+   text-align: left;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: none;
+}
+
+.contador .contador-botao button {
+  border-radius: 100px;
+  margin: 30px 3px;
+  padding: 10px 20px 10px 20px;
+  border: 0;
+  transition: 0.5s;
+}
+
+.contador .contador-botao #botao-add {
+  background: #60B95D;
+}
+
+.contador .contador-botao #botao-remove {
+  background: #D3332D;
+}
+
+.contador .contador-botao #botao-reset {
+  background: rgb(66, 140, 201);
+}
+
+.contador .contador-botao button:hover {
+  padding: 10px 25px;
+  opacity: 0.5;
+}
+
+.contador .contador-botao button p {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.contador .contador-input input {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  background: rgb(156, 156, 156);
+}
